@@ -1,0 +1,9 @@
+# render.yaml
+
+services:
+  - type: web
+    name: s10-0102026
+    env: java
+    buildCommand: "./mvn clean package"
+    startCommand: "java -jar target/S10-0102026-0.0.1-SNAPSHOT.jar"
+    plan: free
